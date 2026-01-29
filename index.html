@@ -17,7 +17,7 @@
 <body>
   <!-- #region Header -->
   <header class="header">
-    <div class="container">
+    <div class="container header-container">
       <a href="./index.html" class="logo">Web<span class="logo-studio-header">Studio</span></a>
       <nav class="nav">
         <ul class="nav-list">
@@ -37,6 +37,12 @@
           </li>
         </ul>
       </address>
+
+      <button type="button" class="menu-open-btn" aria-label="Open Mobile Menu">
+        <svg class="menu-open-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-menu"></use>
+        </svg>
+      </button>
     </div>
   </header>
   <!-- #endregion Header -->
@@ -118,7 +124,8 @@
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list">
           <li class="team-item">
-            <img src="./images/img-3.jpg" alt="Mark Guerrero" width="264" height="260" />
+            <img srcset="./images/MarkGuerrero1x.png 1x, ./images/MarkGuerrero2x.png 2x"
+              src="./images/MarkGuerrero1x.png" alt="Mark Guerrero" width="264" height="260" />
             <div class="team-card-content">
               <h3 class="team-subtitle">Mark Guerrero</h3>
               <p class="team-text">Product Designer</p>
@@ -160,7 +167,8 @@
           </li>
 
           <li class="team-item">
-            <img src="./images/img-2.jpg" alt="Tom Ford" width="264" height="260" />
+            <img srcset="./images/TomFord1x.png 1x, ./images/TomFord2x.png 2x" src="./images/TomFord1x.png"
+              alt="Tom Ford" width="264" height="260" />
             <div class="team-card-content">
               <h3 class="team-subtitle">Tom Ford</h3>
               <p class="team-text">Frontend Developer</p>
@@ -202,7 +210,8 @@
           </li>
 
           <li class="team-item">
-            <img src="./images/img-1.jpg" alt="Camila Garcia" width="264" height="260" />
+            <img srcset="./images/CamilaGarcia1x.png 1x, ./images/CamilaGarcia2x.png 2x"
+              src="./images/CamilaGarcia1x.png" alt="Camila Garcia" width="264" height="260" />
             <div class="team-card-content">
               <h3 class="team-subtitle">Camila Garcia</h3>
               <p class="team-text">Marketing</p>
@@ -244,7 +253,8 @@
           </li>
 
           <li class="team-item">
-            <img src="./images/img.jpg" alt="Daniel Wilson" width="264" height="260" />
+            <img srcset="./images/DanielWilson1x.png 1x, ./images/DanielWilson2x.png 2x"
+              src="./images/DanielWilson1x.png" alt="Daniel Wilson" width="264" height="260" />
             <div class="team-card-content">
               <h3 class="team-subtitle">Daniel Wilson</h3>
               <p class="team-text">UI Designer</p>
@@ -297,7 +307,8 @@
         <ul class="portfolio-list">
           <li class="portfolio-item">
             <div class="portfolio-image-wrapper">
-              <img src="./images/img11.jpg" alt="Banking App" width="360" height="300" />
+              <img srcset="./images/BankingApp1x.png 1x, ./images/BankingApp2x.png 2x" src="./images/BankingApp1x.png"
+                alt="Banking App" width="288" height="280" />
               <p class="portfolio-overlay">
                 14 Stylish and User-Friendly Design Options for Your Business
                 Decisions. Reserved for Fans.
@@ -311,7 +322,8 @@
 
           <li class="portfolio-item">
             <div class="portfolio-image-wrapper">
-              <img src="./images/img12.jpg" alt="Cashless Payment" width="360" height="300" />
+              <img srcset="./images/CashlessPayment1x.png 1x, ./images/CashlessPayment2x.png 2x"
+                src="./images/CashlessPayment1x.png" alt="Cashless Payment" width="288" height="280" />
               <p class="portfolio-overlay">
                 14 Stylish and User-Friendly Design Options for Your Business
                 Decisions. Reserved for Fans.
@@ -325,7 +337,8 @@
 
           <li class="portfolio-item">
             <div class="portfolio-image-wrapper">
-              <img src="./images/img13.jpg" alt="Meditation App" width="360" height="300" />
+              <img srcset="./images/MeditationApp1x.png 1x, ./images/MeditationApp2x.png 2x"
+                src="./images/MeditationApp1x.png" alt="Meditation App" width="288" height="280" />
               <p class="portfolio-overlay">
                 14 Stylish and User-Friendly Design Options for Your Business
                 Decisions. Reserved for Fans.
@@ -339,7 +352,8 @@
 
           <li class="portfolio-item">
             <div class="portfolio-image-wrapper">
-              <img src="./images/img14.jpg" alt="Taxi Service" width="360" height="300" />
+              <img srcset="./images/TaxiService1x.png 1x, ./images/TaxiService2x.png 2x"
+                src="./images/TaxiService1x.png" alt="Taxi Service" width="288" height="280" />
               <p class="portfolio-overlay">
                 14 Stylish and User-Friendly Design Options for Your Business
                 Decisions. Reserved for Fans.
@@ -353,7 +367,8 @@
 
           <li class="portfolio-item">
             <div class="portfolio-image-wrapper">
-              <img src="./images/img15.jpg" alt="Screen Illustrations" width="360" height="300" />
+              <img srcset="./images/ScreenIllustrations1x.png 1x, ./images/ScreenIllustrations2x.png 2x"
+                src="./images/ScreenIllustrations1x.png" alt="Screen Illustrations" width="288" height="280" />
               <p class="portfolio-overlay">
                 14 Stylish and User-Friendly Design Options for Your Business
                 Decisions. Reserved for Fans.
@@ -367,7 +382,8 @@
 
           <li class="portfolio-item">
             <div class="portfolio-image-wrapper">
-              <img src="./images/img16.jpg" alt="Online Courses" width="360" height="300" />
+              <img srcset="./images/OnlineCourses1x.png 1x, ./images/OnlineCourses2x.png 2x"
+                src="./images/OnlineCourses1x.png" alt="Online Courses" width="288" height="280" />
               <p class="portfolio-overlay">
                 14 Stylish and User-Friendly Design Options for Your Business
                 Decisions. Reserved for Fans.
@@ -513,6 +529,76 @@
     </div>
   </div>
   <!-- #endregion Modal -->
+
+  <!-- #region Mobile Menu -->
+  <div class="menu-container js-menu-container">
+    <div class="container mobile-menu-container">
+      <button type="button" class="menu-close-btn js-close-menu">
+        <svg class="menu-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#close"></use>
+        </svg>
+      </button>
+
+      <nav class="mobile-nav">
+        <ul class="mobile-nav-list">
+          <li class="mobile-nav-item">
+            <a href="./index.html" class="mobile-nav-link current">Studio</a>
+          </li>
+          <li class="mobile-nav-item">
+            <a href="#portfolio" class="mobile-nav-link">Portfolio</a>
+          </li>
+          <li class="mobile-nav-item">
+            <a href="#contacts" class="mobile-nav-link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="mobile-contacts-info">
+        <address class="mobile-contacts">
+          <ul class="mobile-contacts-list">
+            <li class="mobile-contacts-item">
+              <a href="tel:+110001111111" class="mobile-contact-link accent">+11 (000) 111-11-11</a>
+            </li>
+            <li class="mobile-contacts-item">
+              <a href="mailto:info@devstudio.com" class="mobile-contact-link">info@devstudio.com</a>
+            </li>
+          </ul>
+        </address>
+
+        <ul class="mobile-socials">
+          <li class="mobile-socials-item">
+            <a href="#" class="mobile-socials-link" aria-label="Instagram">
+              <svg class="mobile-socials-icon" width="24" height="24">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-socials-item">
+            <a href="#" class="mobile-socials-link" aria-label="Twitter">
+              <svg class="mobile-socials-icon" width="24" height="24">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-socials-item">
+            <a href="#" class="mobile-socials-link" aria-label="Facebook">
+              <svg class="mobile-socials-icon" width="24" height="24">
+                <use href="./images/icons.svg#fb"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-socials-item">
+            <a href="#" class="mobile-socials-link" aria-label="LinkedIn">
+              <svg class="mobile-socials-icon" width="24" height="24">
+                <use href="./images/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion Mobile Menu -->
 </body>
 
 </html>
