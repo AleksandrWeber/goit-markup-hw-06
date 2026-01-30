@@ -336,7 +336,7 @@ screen and (min-width: 1158px) and (min-resolution: 2dppx) {
 .hero-btn {
   background-color: var(--primary-brand);
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -576,7 +576,7 @@ screen and (min-width: 1158px) and (min-resolution: 2dppx) {
 .team-socials {
   display: flex;
   justify-content: center;
-  gap: 14px;
+  gap: 24px;
 }
 
 .team-socials-link {
@@ -592,7 +592,7 @@ screen and (min-width: 1158px) and (min-resolution: 2dppx) {
 
 .team-socials-link:hover,
 .team-socials-link:focus {
-  background-color: var(--success);
+  background-color: var(--pressed-state);
 }
 
 .team-socials-icon {
@@ -831,7 +831,7 @@ screen and (min-width: 1158px) and (min-resolution: 2dppx) {
 
 @media screen and (min-width: 1158px) {
   .footer-media {
-    margin-right: 80px;
+    margin-right: 0;
     margin-bottom: 0;
   }
 }
@@ -878,6 +878,12 @@ screen and (min-width: 1158px) and (min-resolution: 2dppx) {
 @media screen and (min-width: 768px) {
   .footer-subscribe {
     width: auto;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .footer-subscribe {
+    margin-left: auto;
   }
 }
 
@@ -938,6 +944,7 @@ screen and (min-width: 1158px) and (min-resolution: 2dppx) {
 
 .footer-input::placeholder {
   color: var(--white);
+  line-height: 2;
 }
 
 .footer-subscribe-btn {
