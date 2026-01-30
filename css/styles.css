@@ -1175,6 +1175,11 @@ screen and (min-width: 1158px) and (min-resolution: 2dppx) {
   margin-right: 8px;
 }
 
+.modal-checkbox-custom svg {
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal-checkbox:focus+.modal-checkbox-label .modal-checkbox-custom,
 .modal-checkbox-label:hover .modal-checkbox-custom {
   border-color: #404bbf;
@@ -1184,6 +1189,10 @@ screen and (min-width: 1158px) and (min-resolution: 2dppx) {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.modal-checkbox:checked+.modal-checkbox-label .modal-checkbox-custom svg {
+  opacity: 1;
 }
 
 .privacy-link {
