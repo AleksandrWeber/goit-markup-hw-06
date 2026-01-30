@@ -815,7 +815,6 @@ screen and (min-width: 1158px) and (min-resolution: 2dppx) {
   color: #f4f4fd;
   max-width: 264px;
   text-align: left;
-  margin-top: 16px;
 }
 
 @media screen and (max-width: 767px) {
@@ -1144,6 +1143,13 @@ screen and (min-width: 1158px) and (min-resolution: 2dppx) {
   border-color: var(--primary-brand);
 }
 
+.modal-textarea::placeholder {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
 .modal-checkbox-group {
   margin-bottom: 24px;
 }
@@ -1169,9 +1175,9 @@ screen and (min-width: 1158px) and (min-resolution: 2dppx) {
 }
 
 .modal-checkbox:checked+.modal-checkbox-label .modal-checkbox-custom {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
+  background-color: #fcfcfc;
+  border-color: #2e2f42;
+  fill: #2e2f42;
 }
 
 .privacy-link {
