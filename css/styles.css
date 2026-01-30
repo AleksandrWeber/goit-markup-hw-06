@@ -524,6 +524,13 @@ screen and (min-width: 1158px) and (min-resolution: 2dppx) {
 }
 
 @media screen and (min-width: 1158px) {
+  .team .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
   .team-list {
     gap: 24px;
   }
