@@ -1012,10 +1012,7 @@ screen and (min-width: 1158px) and (min-resolution: 2dppx) {
 }
 
 .modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
   width: 288px;
   min-height: 584px;
   background-color: #fcfcfc;
@@ -1198,6 +1195,7 @@ screen and (min-width: 1158px) and (min-resolution: 2dppx) {
   border-radius: 4px;
   margin: 0 auto;
   transition: background-color var(--transition-dur-func);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .modal-submit-btn:hover,
